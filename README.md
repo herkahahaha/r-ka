@@ -9,9 +9,8 @@ Membangun ulang kembali wahana pribadi untuk bercerita,
 
 ## Goals
 
-- [Sesuai Design ini, tolong serius herka!](https://www.figma.com/proto/dNE3ozIapMrc0lwxOhyi8I/Figma-Basics?node-id=162%3A41&scaling=min-zoom)
+- [tolong serius herka!](https://www.google.com)
 - seasik mungkin ngerjainnya
 - tetep sehat meski kena cvd19
 - tetep mesti makan meski simpanan kering
 - Tetap jadi Manusia meski ngoding
-- `Semoga dijodohkan tempat yang baru culture yang asyiq,tandem yang MVP`
