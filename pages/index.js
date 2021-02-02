@@ -1,6 +1,7 @@
 import Container from "../components/container";
 import MoreStories from "../components/more-stories";
 import HeroPost from "../components/hero-post";
+import Header from "../components/header";
 import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
@@ -15,12 +16,13 @@ export default function Index({ allPosts }) {
           <title>Rka</title>
         </Head>
         <Container>
+          {/* add Navbar */}
+          <Header />
           {heroPost && (
             <HeroPost
               title={heroPost.title}
               coverImage={heroPost.coverImage}
               date={heroPost.date}
-              author={heroPost.author}
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
             />
@@ -37,7 +39,6 @@ export async function getStaticProps() {
     "title",
     "date",
     "slug",
-    "author",
     "coverImage",
     "excerpt",
   ]);

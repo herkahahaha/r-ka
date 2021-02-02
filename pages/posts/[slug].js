@@ -26,7 +26,7 @@ export default function Post({ post, morePosts, preview }) {
           <>
             <article className="mb-32">
               <Head>
-                <title>{post.title}</title>
+                <title>Rka | {post.title}</title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
               <PostHeader
