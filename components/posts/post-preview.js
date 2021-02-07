@@ -1,5 +1,5 @@
-import DateFormatter from "../components/date-formatter";
-import CoverImage from "./cover-image";
+import DateFormatter from "../date-formatter";
+import CoverImage from "../cover-image";
 import Link from "next/link";
 
 export default function PostPreview({
